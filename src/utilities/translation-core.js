@@ -5,7 +5,7 @@
 // ============================================================================
 
 import dayjs from 'dayjs';
-import RelativeTime from 'dayjs/plugin/relativeTime';
+import RelativeTime from 'dayjs/plugin/relativeTime.js';
 
 dayjs.extend(RelativeTime);
 

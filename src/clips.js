@@ -1,7 +1,6 @@
 'use strict';
 
 import dayjs from 'dayjs';
-//import RavenLogger from './raven';
 
 import Logger from 'utilities/logging';
 import Module from 'utilities/module';
@@ -9,12 +8,12 @@ import Module from 'utilities/module';
 import {DEBUG} from 'utilities/constants';
 import {timeout} from 'utilities/object';
 
-import SettingsManager from './settings/index';
-import AddonManager from './addons';
-import ExperimentManager from './experiments';
-import {TranslationManager} from './i18n';
+import SettingsManager from './settings/index.js';
+import AddonManager from './addons.js';
+import ExperimentManager from './experiments.js';
+import { TranslationManager } from './i18n.js';
 
-import Site from './sites/clips';
+import Site from './sites/clips/index.jsx';
 import Tooltips from 'src/modules/tooltips';
 import Chat from 'src/modules/chat';
 

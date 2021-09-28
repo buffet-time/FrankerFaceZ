@@ -6,7 +6,7 @@ import Module from 'utilities/module';
 import {DEBUG} from 'utilities/constants';
 import {serializeBlob, deserializeBlob} from 'utilities/blobs';
 
-import SettingsManager from './settings/index';
+import SettingsManager from './settings/index.js';
 
 class FFZBridge extends Module {
 	constructor() {

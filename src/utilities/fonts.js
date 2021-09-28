@@ -1,4 +1,4 @@
-import { createElement } from "./dom";
+import { createElement } from './dom.js';
 
 const KNOWN_FONTS = [
 	'Roobert', // Twitch Default

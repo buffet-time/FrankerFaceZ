@@ -4,13 +4,13 @@
 // Room
 // ============================================================================
 
-import User from './user';
+import User from './user.js';
 
 import {NEW_API, API_SERVER, WEBKIT_CSS as WEBKIT, IS_FIREFOX} from 'utilities/constants';
 
 import {ManagedStyle} from 'utilities/dom';
 import {has, SourcedSet, set_equals} from 'utilities/object';
-import { getBadgeCategory, fixBadgeData } from './badges';
+import { getBadgeCategory, fixBadgeData } from './badges.jsx';
 
 
 export default class Room {

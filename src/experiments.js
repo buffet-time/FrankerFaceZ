@@ -10,7 +10,7 @@ import {has, deep_copy} from 'utilities/object';
 import { getBuster } from 'utilities/time';
 
 import Cookie from 'js-cookie';
-import SHA1 from 'crypto-js/sha1';
+import SHA1 from 'crypto-js/sha1.js';
 
 const OVERRIDE_COOKIE = 'experiment_overrides',
 	COOKIE_OPTIONS = {

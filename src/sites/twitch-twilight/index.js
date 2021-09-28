@@ -4,7 +4,7 @@
 // Site Support: Twitch Twilight
 // ============================================================================
 
-import BaseSite from '../base';
+import BaseSite from '../base.js';
 
 import WebMunch from 'utilities/compat/webmunch';
 import Elemental from 'utilities/compat/elemental';
@@ -14,7 +14,7 @@ import Apollo from 'utilities/compat/apollo';
 import TwitchData from 'utilities/twitch-data';
 import Subpump from 'utilities/compat/subpump';
 
-import Switchboard from './switchboard';
+import Switchboard from './switchboard.js';
 
 import {createElement} from 'utilities/dom';
 import {has} from 'utilities/object';

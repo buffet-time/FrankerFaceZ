@@ -9,11 +9,11 @@ import { timeout } from 'utilities/object';
 
 import {DEBUG} from 'utilities/constants';
 
-import SettingsManager from './settings/index';
-import AddonManager from './addons';
-import ExperimentManager from './experiments';
-import {TranslationManager} from './i18n';
-import SocketClient from './socket';
+import SettingsManager from './settings/index.js';
+import AddonManager from './addons.js';
+import ExperimentManager from './experiments.js';
+import { TranslationManager } from './i18n.js';
+import SocketClient from './socket.js';
 //import PubSubClient from './pubsub';
 import Site from 'site';
 import Vue from 'utilities/vue';

@@ -8,15 +8,15 @@ import Module from 'utilities/module';
 import {deep_equals, has, debounce, deep_copy} from 'utilities/object';
 import {parse as new_parse} from 'utilities/path-parser';
 
-import SettingsProfile from './profile';
-import SettingsContext from './context';
-import MigrationManager from './migration';
+import SettingsProfile from './profile.js';
+import SettingsContext from './context.js';
+import MigrationManager from './migration.js';
 
-import * as PROCESSORS from './processors';
-import * as VALIDATORS from './validators';
-import * as PROVIDERS from './providers';
-import * as FILTERS from './filters';
-import * as CLEARABLES from './clearables';
+import * as PROCESSORS from './processors.js';
+import * as VALIDATORS from './validators.js';
+import * as PROVIDERS from './providers.js';
+import * as FILTERS from './filters.js';
+import * as CLEARABLES from './clearables.js';
 
 
 function postMessage(target, msg) {
